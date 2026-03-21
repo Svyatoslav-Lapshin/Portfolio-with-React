@@ -1,0 +1,71 @@
+{
+  "workExperience": [
+    {
+      "company": "Actic Sverige AB",
+      "location": "Stockholm",
+      "position": "Receptionist",
+      "start": "2023/09",
+      "end": "Present"
+    },
+    {
+      "company": "Enitor AB",
+      "location": "Stockholm",
+      "position": "Cleaner",
+      "start": "2023/06",
+      "end": "2023-10"
+    },
+    {
+      "company": "Lassila & Tikanoja",
+      "location": "Stockholm",
+      "position": "Cleaner",
+      "start": "2023/09",
+      "end": "2025/08"
+    },
+    {
+      "company": "SK Neptun",
+      "location": "Stockholm",
+      "position": "Water Polo Coach",
+      "start": "2016/05",
+      "end": "2018/06"
+    }
+  ],
+  "education": [
+    {
+      "school": "Chas Academy",
+      "location": "Stockholm",
+      "program": "Fullstack.Net developer",
+      "start": "2025/09",
+      "end": "2027/06"
+    },
+    {
+      "school": "Södertörns högskola",
+      "location": "Stockholm",
+      "program": "Computer Games Programme: Specialisation Game Design and Scripting",
+      "start": "2021/08",
+      "end": "2024/06"
+    },
+    {
+      "school": "S:t Botvids gymnasium",
+      "location": "Stockholm",
+      "program": "Natural Sciences and Social Sciences Programme",
+      "start": "2018/08",
+      "end": "2021/06"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Game Design",
+      "school": "Luleå University of Technology",
+      "location": "Sweden",
+      "start": "2024/01",
+      "end": "2024/06"
+    },
+    {
+      "name": "Programming in C#",
+      "school": "Malmö University",
+      "location": "Sweden",
+      "start": "2024/01",
+      "end": "2024/06"
+    }
+  ]
+}

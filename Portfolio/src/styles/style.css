@@ -1,0 +1,247 @@
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border: 5px solid #e2d797;
+  box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5);
+}
+.hero-section {
+  margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #e2d797;
+}
+
+.hero article {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  padding: 4rem auto;
+  background-color: #e2d797;
+  color: #721e1e;
+  border-radius: 12px;
+  border: 3px solid rgba(114, 30, 30, 0.4);
+}
+
+.hero article h2 {
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.link-button {
+  display: block;
+  margin: 2rem auto;
+  border-radius: 4px;
+  border: none;
+  font-size: 1.2rem;
+  color: #e2d797;
+  background-color: #721e1e;
+  height: auto;
+  padding: 0.6rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+.link-button:visited {
+  color: #ffffffa6;
+}
+
+.project-description {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal p,
+.modal li {
+  line-height: 1.7;
+}
+.modal-content {
+  background: #721e1e;
+  width: 500px;
+  max-width: 100%;
+  padding: 2em;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.github {
+  text-decoration: none;
+  color: #721e1e;
+}
+
+.contact-mail {
+  text-decoration: none;
+  color: #721e1e;
+}
+.github:visited {
+  color: #ffffffa6;
+}
+
+.linkedin {
+  text-decoration: none;
+  color: #721e1e;
+}
+
+.linkedin:visited {
+  color: #ffffffa6;
+}
+
+.work-experience li {
+  font-size: 1.1rem;
+}
+.contact-message p {
+  font-size: 1.3rem;
+  padding-left: 0.5rem;
+}
+.contact-info li {
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.popUp-img {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+.contact-page a,
+.contact-page li,
+.contact-page p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+li {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.contact-page li {
+  list-style: none;
+  padding-left: 0.5rem;
+}
+
+.home-page {
+  grid-template-columns: minmax(180px, 320px) 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 5%;
+}
+.projects-page {
+  grid-template-columns: 1fr 1fr;
+}
+.loading {
+  text-align: center;
+  font-size: clamp(1rem, 4vw, 2rem);
+  background-image: linear-gradient(to right, white, #e2d797);
+  background-clip: text;
+  color: transparent;
+}
+.cv-page {
+  grid-template-columns: 1fr 1fr;
+}
+.contact-page {
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills li {
+  display: inline-block;
+  border-radius: 2rem;
+  border: 3px solid rgba(114, 30, 30, 0.4);
+  padding: 0.5rem 0.7rem;
+  margin: 0.4rem;
+}
+
+@media (max-width: 900px) {
+  .home-page {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 2rem;
+  }
+  .hero-image {
+    margin: 0 auto;
+  }
+  .hero-section {
+    margin: 0 auto;
+  }
+
+  .cv-page {
+    grid-template-columns: 1fr;
+    padding: 1.5rem auto;
+  }
+  .projects-page {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .contact-page {
+    grid-template-columns: 1fr;
+  }
+
+  .link-button {
+    padding: auto;
+    font-size: clamp(0.8rem, 4vw, 1.2rem);
+  }
+}
+
+/*Media Print*/
+
+@media print {
+  header,
+  .footer,
+  nav {
+    display: none;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .education,
+  .languages,
+  .courses {
+    font-size: 1.5rem;
+  }
+
+  article {
+    padding: 1.5rem;
+    page-break-inside: avoid;
+  }
+}
