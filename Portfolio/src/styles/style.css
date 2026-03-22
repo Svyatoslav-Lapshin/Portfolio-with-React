@@ -125,14 +125,26 @@
 
 .work-experience li {
   font-size: 1.1rem;
+  padding-bottom: 0.5rem;
 }
+
+.education li {
+  padding-bottom: 0.5rem;
+}
+
 .contact-message p {
   font-size: 1.3rem;
   padding-left: 0.5rem;
 }
 .contact-info li {
-  font-size: 1rem;
+  font-size: 1.3rem;
   padding-left: 0.5rem;
+}
+.courses li {
+  padding-bottom: 0.5rem;
+}
+.languages li {
+  padding-bottom: 0.5rem;
 }
 
 .popUp-img {
